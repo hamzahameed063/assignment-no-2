@@ -1,4 +1,4 @@
-.error{
+/* .error{
   border: 2px solid red;
 }
 .error-text{
@@ -6,4 +6,24 @@
 }
 .btn{
 
+} */
+h1{
+  color: aqua;
+}
+form label {
+  display: inline-block;
+  width: 100px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  margin-left: 5px;
+}
+
+label.error {
+  display: inline;
 }

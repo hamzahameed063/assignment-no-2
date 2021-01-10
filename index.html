@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,32 @@
   <link rel="stylesheet" href="style.css">
   <script src="./jquery-3.5.1.min.js"></script>
 </head>
+
 <body>
   <h1 class="h">Hamza Hameed</h1>
-  <form action="/action_page.php">
-    <input type="text" class="email-input"><br>
-    <div class="email-error">
-      email
+  <form id="first_form" method="post" action="">
+    <div>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name"></input>
     </div>
-    <input type="text" class="password-input"><br>
-    <div class="password-error">
-      password
+    <div>
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name"></input>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"></input>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"></input>
+    </div>
+    <div>
+      <input type="submit" value="Submit" />
     </div>
   </form>
-  <button class="btn">Submit</button>
 
   <script src="./myJsCode.js"></script>
 </body>
+
 </html>
